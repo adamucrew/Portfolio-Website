@@ -6,33 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adam Petticrew's Portfolio</title>
     <link href="C:\Users\adamu\OneDrive\Documents\Codecademy\DevProjects\Portfolio Website\Resources\css\style.css" type="text/css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/009796150b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>Adam Petticrew</h1>
         <nav>
+            <h1>Adam Petticrew</h1>
             <ul class="breadcrumb">
                 <li class="tab"><a href="#">Projects</a></li>
                 <li class="tab"><a href="#">Resume</a></li>
-                <li class="tab"><a href="#">About</a></li>
+                <li class="tab"><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
-    
-    <div class="intro">
-        <p>I'm gaining experience in many fields of the Tech industry! My passion and portfolio for coding
-            and UX/UI design set me apart from others. In my free time I enjoy learning about these topics.
-            I desire to become a developer some day soon!
-        </p>
-    </div>
-    
-    <div class="education">
-        <ul>Certificates Held:
-            <li>Full-Stack Development from Codecademy</li>
-            <li>HTML, CSS, and Javascript for Web Developers from Johns Hopkins University via Coursera</li>
-            <li>UX Design Specializion from Google via Coursera</li>
-            <li>Project Management Specialization from Google via Coursera</li>
-        </ul>
-    </div>
+    <main>
+        <div id="content">
+            <img src="C:\Users\adamu\OneDrive\Pictures\Profile Pic.jpg" alt="" id="profilepic">
+            <div class="intro">
+                <h2>Developer/UI Designer</h2>
+                <p>I'm gaining experience in many fields of the Tech industry! My passion and portfolio for coding
+                    and UX/UI design set me apart from others. In my free time I enjoy learning about these topics.
+                    I desire to become a developer some day soon!
+                </p>
+            </div>
+        </div>
+
+        <div class="education">
+            <h2>Education:</h2>
+            <div class="educationtext">
+                <ul class="certs"><h3>Certificates</h3>
+                    <li>Full-Stack Developer Career Path from Codecademy</li>
+                    <li>HTML, CSS, and JavaScript for Web Developers from Johns Hopkins University via Coursera</li>
+                    <li>UX Design Specializion from Google via Coursera</li>
+                    <li>Project Management Specialization from Google via Coursera</li>
+                </ul>
+                <ul class="degrees"><h3>Degrees</h3>
+                    <li>MBA from Louisiana State University in Shreveport (2018)</li>
+                    <li>BA in International Studies from Miami University in Oxfor, Ohio (2010)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="skills">
+            <h2>Skills:</h2>
+            <div class="icons">
+                <i class="fa-brands fa-html5 fa-10x"></i>
+                <i class="fa-brands fa-css3-alt fa-10x"></i>
+                <i class="fa-brands fa-js fa-10x"></i>
+                <i class="fa-brands fa-react fa-10x"></i>
+                <i class="fa-brands fa-github fa-10x"></i>
+                <i class="fa-brands fa-git fa-10x"></i>
+                <i class="fa-brands fa-figma fa-10x"></i>
+            </div>
+        </div>
+    </main>
+    <script src="C:\Users\adamu\OneDrive\Documents\Codecademy\DevProjects\Portfolio Website\portfolio.js"></script>
 </body>
 </html>
